@@ -8,7 +8,7 @@
 
 - Watches the Lever job boards you list (your own or competitors') through Lever's public postings API and keeps only postings that publish a numeric salary.
 - Builds a salary register in Google Sheets: title, team, location, remote/hybrid, min, max, currency, pay interval, link, first-seen date. Postings are matched by Lever posting ID, so repeated runs add only new jobs (on the first run every matching posting counts as new).
-- Posts one Slack digest of the new postings, highest paid first (max 15 lines + "N more").
+- Posts one Slack digest of the new postings, grouped by currency and pay interval, highest paid first within each group (max 15 lines + "N more").
 - If the Apify call fails, the workflow stops with the reason and changes nothing.
 
 Use it for compensation benchmarking, recruiting research or a pay-transparent job alert.

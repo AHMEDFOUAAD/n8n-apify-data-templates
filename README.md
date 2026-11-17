@@ -7,7 +7,7 @@ Two tested, import-ready [n8n](https://n8n.io) workflows that pull structured pu
 | Template | What it does | Actor (Apify Store) | Example task |
 |---|---|---|---|
 | [Podcast transcripts to Google Sheets](podcast-transcripts-to-google-sheets/) | Daily: saves the transcripts podcasts already publish in their RSS feeds (Podcasting 2.0 `<podcast:transcript>`) as one row per new episode | [Podcast Transcripts from RSS](https://apify.com/ahmed.fouaad82/podcast-published-transcripts) | [Get published podcast transcripts from an RSS feed](https://apify.com/ahmed.fouaad82/podcast-published-transcripts/examples/podcast-transcripts-from-rss-feed) |
-| [Lever salary watch to Google Sheets + Slack](lever-salary-watch-sheets-slack/) | Weekdays: keeps a register of Lever job postings that publish a salary range and posts new ones to Slack, highest paid first | [Lever Jobs Scraper - Salary Ranges & Remote Filters](https://apify.com/ahmed.fouaad82/lever-salary-jobs) | [Lever jobs with salary ranges](https://apify.com/ahmed.fouaad82/lever-salary-jobs/examples/lever-jobs-with-salary-ranges) |
+| [Lever salary watch to Google Sheets + Slack](lever-salary-watch-sheets-slack/) | Weekdays: keeps a register of Lever job postings that publish a salary range and posts new ones to Slack, grouped by currency and pay interval (highest paid first within each group) | [Lever Jobs Scraper - Salary Ranges & Remote Filters](https://apify.com/ahmed.fouaad82/lever-salary-jobs) | [Lever jobs with salary ranges](https://apify.com/ahmed.fouaad82/lever-salary-jobs/examples/lever-jobs-with-salary-ranges) |
 
 ## How they call Apify
 
